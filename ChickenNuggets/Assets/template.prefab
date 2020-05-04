@@ -409,8 +409,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1312478858852834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 0.0013}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 0.36}
+  m_LocalPosition: {x: 0, y: -0, z: 0.0016}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 0.36}
   m_Children: []
   m_Father: {fileID: 4779723879939678}
   m_RootOrder: 0
@@ -464,7 +464,7 @@ Transform:
   m_GameObject: {fileID: 1696781811114646}
   m_LocalRotation: {x: 0.70710653, y: 0.0006170884, z: -0.0006170884, w: 0.70710653}
   m_LocalPosition: {x: 0.0001, y: 0.0103, z: 0.04}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 1}
+  m_LocalScale: {x: 0.0000075, y: 0.0000075, z: 1}
   m_Children: []
   m_Father: {fileID: 4236533378439496}
   m_RootOrder: 5
@@ -476,8 +476,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1897456242503838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.1641532e-10, z: 0.0012999995}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 0.36}
+  m_LocalPosition: {x: 0, y: -1.1641532e-10, z: 0.0016}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 0.36}
   m_Children: []
   m_Father: {fileID: 4742897954933554}
   m_RootOrder: 0
@@ -544,8 +544,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1150858707280724}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0013}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 0.36}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0016}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 0.36}
   m_Children: []
   m_Father: {fileID: 4957338305031398}
   m_RootOrder: 0
@@ -571,8 +571,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1341555997294162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.1641532e-10, z: 0.0012999995}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 0.36}
+  m_LocalPosition: {x: 0, y: -1.1641532e-10, z: 0.0016}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 0.36}
   m_Children: []
   m_Father: {fileID: 4777279572957896}
   m_RootOrder: 0
@@ -954,7 +954,7 @@ TextMesh:
   m_GameObject: {fileID: 1696781811114646}
   m_Text: I'm lovin' it
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 144
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
@@ -1258,12 +1258,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Parent: {fileID: 114763741548843854}
   Children:
+  - {fileID: 0}
   - {fileID: 114748625046098496}
+  - {fileID: 0}
   - {fileID: 114924085320356836}
-  - {fileID: 114018707618652246}
   - {fileID: 114074970695067142}
+  - {fileID: 114018707618652246}
   IsPassThrough: 0
-  ChildRowLength: 0
+  ChildRowLength: 3
   Highlight: {fileID: 114842238078460400}
   SelectableColliders: []
   DefaultSelectableIndex: 0
