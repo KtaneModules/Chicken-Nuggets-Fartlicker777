@@ -168,6 +168,7 @@ public class ChickenNuggets : MonoBehaviour {
                 if (!valids.Contains(parameters[i].ToLower()))
                 {
                     yield return "sendtochaterror The specified button to press '" + parameters[i] + "' is invalid!";
+		    yield break;
                 }
             }
             for (int i = 1; i < parameters.Length; i++)
