@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 114328020385232164}
   - component: {fileID: 114763741548843854}
   - component: {fileID: 114410677617087314}
+  - component: {fileID: 114329173525715854}
   m_Layer: 0
   m_Name: template
   m_TagString: Untagged
@@ -1098,6 +1099,18 @@ MonoBehaviour:
   ModuleType: ChickenNuggets
   ModuleDisplayName: Chicken Nuggets
   RequiresTimerVisibility: 0
+--- !u!114 &114329173525715854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1344976751143278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf69c2de51bd3c43bbd9bc22578ee08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _seed: 1
 --- !u!114 &114372048253123744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1153,6 +1166,7 @@ MonoBehaviour:
   - {fileID: 114924085320356836}
   - {fileID: 114074970695067142}
   - {fileID: 114018707618652246}
+  Ruleseed: {fileID: 114329173525715854}
   Commie: {fileID: 1024375424960452}
   McDonalds:
   - {fileID: 2100000, guid: 4448cee2f1f54734297664188e778f83, type: 2}
