@@ -281,6 +281,7 @@ public class ChickenNuggets : MonoBehaviour {
     }
     IEnumerator TwitchHandleForcedSolve()
     {
+        CondonGenerator = 0;
         if (Simp)
         {
             Nuggies[0].OnInteract();
