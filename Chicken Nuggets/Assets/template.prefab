@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 114748625046098496}
   - component: {fileID: 114735919092726158}
   m_Layer: 0
-  m_Name: RoundButton_0.2
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 114924085320356836}
   - component: {fileID: 114752449488026734}
   m_Layer: 0
-  m_Name: RoundButton_0.2 (1)
+  m_Name: BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 114074970695067142}
   - component: {fileID: 114734564668480702}
   m_Layer: 0
-  m_Name: RoundButton_0.2 (3)
+  m_Name: BM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 114018707618652246}
   - component: {fileID: 114946008482208182}
   m_Layer: 0
-  m_Name: RoundButton_0.2 (2)
+  m_Name: BR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -379,8 +379,8 @@ Transform:
   - {fileID: 4239531392274948}
   - {fileID: 4957338305031398}
   - {fileID: 4779723879939678}
-  - {fileID: 4742897954933554}
   - {fileID: 4777279572957896}
+  - {fileID: 4742897954933554}
   - {fileID: 4427405343263302}
   - {fileID: 4177070739262114}
   m_Father: {fileID: 0}
@@ -495,7 +495,7 @@ Transform:
   m_Children:
   - {fileID: 4687253354592528}
   m_Father: {fileID: 4236533378439496}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4767691671667582
 Transform:
@@ -522,7 +522,7 @@ Transform:
   m_Children:
   - {fileID: 4975946944140998}
   m_Father: {fileID: 4236533378439496}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4779723879939678
 Transform:
@@ -660,7 +660,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: e4212da1db629ec4d8a96c7e39bc26fb, type: 2}
+  - {fileID: 2100000, guid: b14a8074ff450f94cab3b187e6666e47, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -963,7 +963,7 @@ TextMesh:
   m_FontSize: 144
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: b10c8fa20a88f8a4fa4a5d53cda52acf, type: 3}
+  m_Font: {fileID: 12800000, guid: 93e3390ed6c172745a819e25609716a4, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4278190080
@@ -1135,8 +1135,7 @@ MonoBehaviour:
   m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShaderNames:
-  - GUI/KT 3D Text Diffuse
+  ShaderNames: []
 --- !u!114 &114405878019693184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1167,11 +1166,11 @@ MonoBehaviour:
   - {fileID: 114074970695067142}
   - {fileID: 114018707618652246}
   Ruleseed: {fileID: 114329173525715854}
-  Commie: {fileID: 1024375424960452}
-  McDonalds:
+  BackgroundGO: {fileID: 1856482459653408}
+  Backgrounds:
   - {fileID: 2100000, guid: 4448cee2f1f54734297664188e778f83, type: 2}
   - {fileID: 2100000, guid: ffe6353e08a8d914396282876be9bbf8, type: 2}
-  McBlowjob: {fileID: 102361061495027906}
+  DisplayedNumber: {fileID: 102361061495027906}
 --- !u!114 &114430112712775806
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: kmbju,hhmnbj,hmgnbjv
+  m_Name: kmbju,hhmnbj,hmgnbjv 1
   m_Shader: {fileID: 4800000, guid: a476fc8290dd79847a16d1040aa478d2, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -39,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b10c8fa20a88f8a4fa4a5d53cda52acf, type: 3}
+        m_Texture: {fileID: 2800000, guid: 93e3390ed6c172745a819e25609716a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:

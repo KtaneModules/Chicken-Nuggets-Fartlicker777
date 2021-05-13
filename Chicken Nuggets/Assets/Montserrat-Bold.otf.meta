@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b10c8fa20a88f8a4fa4a5d53cda52acf
+guid: 93e3390ed6c172745a819e25609716a4
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: McLawsuit
+  fontName: Montserrat
   fontNames:
-  - McLawsuit
+  - Montserrat
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
